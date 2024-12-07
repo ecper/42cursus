@@ -1,0 +1,182 @@
+0000000   /   *       *   *   *   *   *   *   *   *   *   *   *   *   *
+0000010   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*
+0000040   *   *   *   *   *   *   *   *   *   *   *   *   *       *   /
+0000050  \n   /   *                                                    
+0000060                                                                
+*
+0000090                                                               *
+00000a0   /  \n   /   *                                                
+00000b0                                                                
+*
+00000d0                                                   :   :   :    
+00000e0                       :   :   :   :   :   :   :   :            
+00000f0   *   /  \n   /   *               g   e   t   _   n   e   x   t
+0000100   _   l   i   n   e   .   c                                    
+0000110                                                                
+0000120                                               :   +   :        
+0000130                   :   +   :                   :   +   :        
+0000140       *   /  \n   /   *                                        
+0000150                                                                
+*
+0000170                                           +   :   +       +   :
+0000180   +                                       +   :   +            
+0000190           *   /  \n   /   *               B   y   :       h   a
+00001a0   u   c   h   i   d   a       <   h   a   u   c   h   i   d   a
+00001b0   @   s   t   u   d   e   n   t   .   4   2   t   o   k   y   o
+00001c0   .   j   p   >                       +   #   +           +   :
+00001d0   +                               +   #   +                    
+00001e0               *   /  \n   /   *                                
+00001f0                                                                
+*
+0000210                                   +   #   +   #   +   #   +   #
+0000220   +   #   +               +   #   +                            
+0000230                   *   /  \n   /   *               C   r   e   a
+0000240   t   e   d   :       2   0   2   4   /   1   1   /   0   2    
+0000250   2   2   :   2   9   :   1   7       b   y       h   a   u   c
+0000260   h   i   d   a                                           #   +
+0000270   #                   #   +   #                                
+0000280                       *   /  \n   /   *               U   p   d
+0000290   a   t   e   d   :       2   0   2   4   /   1   1   /   1   6
+00002a0       0   2   :   3   7   :   3   8       b   y       h   a   u
+00002b0   c   h   i   d   a                                       #   #
+00002c0   #               #   #   #   #   #   #   #   #   .   f   r    
+00002d0                           *   /  \n   /   *                    
+00002e0                                                                
+*
+0000320                               *   /  \n   /   *       *   *   *
+0000330   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*
+0000370   *   *   *   *   *   *   *       *   /  \n  \n   #   i   n   c
+0000380   l   u   d   e       "   g   e   t   _   n   e   x   t   _   l
+0000390   i   n   e   .   h   "  \n  \n   s   t   a   t   i   c       v
+00003a0   o   i   d  \t   f   r   e   e   _   b   u   f   f   e   r   (
+00003b0   t   _   n   e   x   t   _   l   i   n   e       *   d   a   t
+00003c0   a   )  \n   {  \n  \t   f   r   e   e   (   d   a   t   a   -
+00003d0   >   b   u   f   f   e   r   )   ;  \n  \t   d   a   t   a   -
+00003e0   >   b   u   f   f   e   r   _   i   n   d   e   x       =    
+00003f0   0   ;  \n  \t   d   a   t   a   -   >   b   y   t   e   s   _
+0000400   r   e   a   d       =       0   ;  \n  \t   d   a   t   a   -
+0000410   >   b   u   f   f   e   r       =       N   U   L   L   ;  \n
+0000420   }  \n  \n   s   t   a   t   i   c       c   h   a   r  \t   *
+0000430   f   r   e   e   _   d   e   s   t   _   a   n   d   _   d   u
+0000440   p   (   t   _   n   e   x   t   _   l   i   n   e       *   d
+0000450   a   t   a   )  \n   {  \n  \t   c   h   a   r  \t   *   t   m
+0000460   p   ;  \n  \n  \t   t   m   p       =       f   t   _   s   t
+0000470   r   d   u   p   (   d   a   t   a   -   >   d   e   s   t   )
+0000480   ;  \n  \t   f   r   e   e   (   d   a   t   a   -   >   d   e
+0000490   s   t   )   ;  \n  \t   d   a   t   a   -   >   d   e   s   t
+00004a0   _   i   n   d   e   x       =       0   ;  \n  \t   d   a   t
+00004b0   a   -   >   d   e   s   t       =       N   U   L   L   ;  \n
+00004c0  \t   r   e   t   u   r   n       (   t   m   p   )   ;  \n   }
+00004d0  \n  \n   s   t   a   t   i   c       i   n   t  \t   r   e   a
+00004e0   d   _   f   i   l   e   (   t   _   n   e   x   t   _   l   i
+00004f0   n   e       *   d   a   t   a   ,       i   n   t       f   d
+0000500   )  \n   {  \n  \t   i   f       (   (   !   B   U   F   F   E
+0000510   R   _   S   I   Z   E       |   |       f   d       <       0
+0000520   )   )  \n  \t  \t   r   e   t   u   r   n       (   0   )   ;
+0000530  \n  \t   i   f       (   !   d   a   t   a   -   >   b   y   t
+0000540   e   s   _   r   e   a   d   )  \n  \t   {  \n  \t  \t   d   a
+0000550   t   a   -   >   b   u   f   f   e   r       =       (   c   h
+0000560   a   r       *   )   m   a   l   l   o   c   (   s   i   z   e
+0000570   o   f   (   c   h   a   r   )       *       (   B   U   F   F
+0000580   E   R   _   S   I   Z   E       +       1   )   )   ;  \n  \t
+0000590  \t   d   a   t   a   -   >   b   y   t   e   s   _   r   e   a
+00005a0   d       =       r   e   a   d   (   f   d   ,       d   a   t
+00005b0   a   -   >   b   u   f   f   e   r   ,       B   U   F   F   E
+00005c0   R   _   S   I   Z   E   )   ;  \n  \t  \t   i   f       (   d
+00005d0   a   t   a   -   >   b   y   t   e   s   _   r   e   a   d    
+00005e0   <       0   )  \n  \t  \t   {  \n  \t  \t  \t   f   r   e   e
+00005f0   _   b   u   f   f   e   r   (   d   a   t   a   )   ;  \n  \t
+0000600  \t  \t   r   e   t   u   r   n       (   0   )   ;  \n  \t  \t
+0000610   }  \n  \t  \t   d   a   t   a   -   >   b   u   f   f   e   r
+0000620   [   d   a   t   a   -   >   b   y   t   e   s   _   r   e   a
+0000630   d   ]       =       '   \   0   '   ;  \n  \t   }  \n  \t   r
+0000640   e   t   u   r   n       (   1   )   ;  \n   }  \n  \n   s   t
+0000650   a   t   i   c       v   o   i   d  \t   s   t   a   r   t   _
+0000660   p   u   t   _   c   h   a   r   (   t   _   n   e   x   t   _
+0000670   l   i   n   e       *   d   a   t   a   )  \n   {  \n  \t   w
+0000680   h   i   l   e       (   d   a   t   a   -   >   b   y   t   e
+0000690   s   _   r   e   a   d       >       0   )  \n  \t   {  \n  \t
+00006a0  \t   d   a   t   a   -   >   d   e   s   t       =       f   t
+00006b0   _   p   u   t   s   t   r   (   d   a   t   a   -   >   d   e
+00006c0   s   t   ,       d   a   t   a   -   >   b   u   f   f   e   r
+00006d0   [   d   a   t   a   -   >   b   u   f   f   e   r   _   i   n
+00006e0   d   e   x   ]   )   ;  \n  \t  \t   d   a   t   a   -   >   d
+00006f0   e   s   t   _   i   n   d   e   x   +   +   ;  \n  \t  \t   d
+0000700   a   t   a   -   >   b   y   t   e   s   _   r   e   a   d   -
+0000710   -   ;  \n  \t  \t   i   f       (   d   a   t   a   -   >   b
+0000720   u   f   f   e   r   [   d   a   t   a   -   >   b   u   f   f
+0000730   e   r   _   i   n   d   e   x   ]       =   =       '   \   n
+0000740   '   )  \n  \t  \t  \t   b   r   e   a   k       ;  \n  \t  \t
+0000750   d   a   t   a   -   >   b   u   f   f   e   r   _   i   n   d
+0000760   e   x   +   +   ;  \n  \t   }  \n   }  \n  \n   c   h   a   r
+0000770  \t   *   g   e   t   _   n   e   x   t   _   l   i   n   e   (
+0000780   i   n   t       f   d   )  \n   {  \n  \t   s   t   a   t   i
+0000790   c       t   _   n   e   x   t   _   l   i   n   e  \t   d   a
+00007a0   t   a   ;  \n  \n  \t   i   f       (   !   r   e   a   d   _
+00007b0   f   i   l   e   (   &   d   a   t   a   ,       f   d   )   )
+00007c0  \n  \t  \t   r   e   t   u   r   n       (   N   U   L   L   )
+00007d0   ;  \n  \t   i   f       (   d   a   t   a   .   b   u   f   f
+00007e0   e   r   [   0   ]       =   =       '   \   0   '   )  \n  \t
+00007f0   {  \n  \t  \t   f   r   e   e   (   d   a   t   a   .   b   u
+0000800   f   f   e   r   )   ;  \n  \t  \t   i   f       (   d   a   t
+0000810   a   .   d   e   s   t   _   i   n   d   e   x   )  \n  \t  \t
+0000820  \t   r   e   t   u   r   n       (   f   r   e   e   _   d   e
+0000830   s   t   _   a   n   d   _   d   u   p   (   &   d   a   t   a
+0000840   )   )   ;  \n  \t  \t   r   e   t   u   r   n       (   N   U
+0000850   L   L   )   ;  \n  \t   }  \n  \t   s   t   a   r   t   _   p
+0000860   u   t   _   c   h   a   r   (   &   d   a   t   a   )   ;  \n
+0000870  \t   i   f       (   d   a   t   a   .   b   u   f   f   e   r
+0000880   [   d   a   t   a   .   b   u   f   f   e   r   _   i   n   d
+0000890   e   x   ]       =   =       '   \   n   '   )  \n  \t   {  \n
+00008a0  \t  \t   d   a   t   a   .   b   u   f   f   e   r   _   i   n
+00008b0   d   e   x   +   +   ;  \n  \t  \t   i   f       (   !   d   a
+00008c0   t   a   .   b   y   t   e   s   _   r   e   a   d   )  \n  \t
+00008d0  \t  \t   f   r   e   e   _   b   u   f   f   e   r   (   &   d
+00008e0   a   t   a   )   ;  \n  \t  \t   r   e   t   u   r   n       (
+00008f0   f   r   e   e   _   d   e   s   t   _   a   n   d   _   d   u
+0000900   p   (   &   d   a   t   a   )   )   ;  \n  \t   }  \n  \t   i
+0000910   f       (   !   d   a   t   a   .   b   y   t   e   s   _   r
+0000920   e   a   d   )  \n  \t   {  \n  \t  \t   f   r   e   e   _   b
+0000930   u   f   f   e   r   (   &   d   a   t   a   )   ;  \n  \t  \t
+0000940   r   e   t   u   r   n       (   g   e   t   _   n   e   x   t
+0000950   _   l   i   n   e   (   f   d   )   )   ;  \n  \t   }  \n  \t
+0000960   r   e   t   u   r   n       (   N   U   L   L   )   ;  \n   }
+0000970  \n  \n   #   i   n   c   l   u   d   e       <   f   c   n   t
+0000980   l   .   h   >  \n   #   i   n   c   l   u   d   e       <   s
+0000990   t   d   i   o   .   h   >  \n  \n   i   n   t  \t   m   a   i
+00009a0   n   (   v   o   i   d   )  \n   {  \n  \t   i   n   t       f
+00009b0   d       =       o   p   e   n   (   "   t   e   s   t   .   t
+00009c0   x   t   "   ,       O   _   R   D   W   R   )   ;  \n  \n  \t
+00009d0   /   /       i   n   t       i   ;  \n  \t   c   h   a   r    
+00009e0   *   s   ;  \n  \n  \t   /   /       i       =       0   ;  \n
+00009f0  \t   /   /       s       =       g   e   t   _   n   e   x   t
+0000a00   _   l   i   n   e   (   f   d   )   ;  \n  \t   /   /       p
+0000a10   r   i   n   t   f   (   "   t   e   s   t   :       %   s   "
+0000a20   ,       s   )   ;  \n  \t   /   /       f   r   e   e   (   s
+0000a30   )   ;  \n  \t   /   /       s       =       N   U   L   L   ;
+0000a40  \n  \t   /   /       s       =       g   e   t   _   n   e   x
+0000a50   t   _   l   i   n   e   (   f   d   )   ;  \n  \t   /   /    
+0000a60   p   r   i   n   t   f   (   "   t   e   s   t   :       %   s
+0000a70   "   ,       s   )   ;  \n  \t   /   /       /   /       f   r
+0000a80   e   e   (   s   )   ;  \n  \t   /   /       /   /       s    
+0000a90   =       N   U   L   L   ;  \n  \t   /   /       s       =    
+0000aa0   g   e   t   _   n   e   x   t   _   l   i   n   e   (   f   d
+0000ab0   )   ;  \n  \t   /   /       p   r   i   n   t   f   (   "   t
+0000ac0   e   s   t   :       %   s   "   ,       s   )   ;  \n  \t   /
+0000ad0   /       /   /       f   r   e   e   (   s   )   ;  \n  \t   /
+0000ae0   /       /   /       s       =       N   U   L   L   ;  \n  \t
+0000af0   /   /       s       =       g   e   t   _   n   e   x   t   _
+0000b00   l   i   n   e   (   f   d   )   ;  \n  \t   /   /       p   r
+0000b10   i   n   t   f   (   "   t   e   s   t   :       %   s   "   ,
+0000b20       s   )   ;  \n  \n  \t   s       =       g   e   t   _   n
+0000b30   e   x   t   _   l   i   n   e   (   f   d   )   ;  \n  \t   p
+0000b40   r   i   n   t   f   (   "   %   s   "   ,       s   )   ;  \n
+0000b50  \t   f   r   e   e   (   s   )   ;  \n  \t   w   h   i   l   e
+0000b60       (   s   )  \n  \t   {  \n  \t  \t   s       =       g   e
+0000b70   t   _   n   e   x   t   _   l   i   n   e   (   f   d   )   ;
+0000b80  \n  \t  \t   p   r   i   n   t   f   (   "   %   s   "   ,    
+0000b90   s   )   ;  \n  \t  \t   f   r   e   e   (   s   )   ;  \n  \t
+0000ba0   }  \n  \t   c   l   o   s   e   (   f   d   )   ;  \n   }   ;
+0000bb0
