@@ -8,7 +8,7 @@ MLX_DIR = minilibx-linux
 MLX = $(MLX_DIR)/libmlx.a
 
 # コンパイルフラグ
-CFLAGS = -Wall -Wextra -Werror -O3 
+CFLAGS =  -O3 
 LDFLAGS = -L$(MLX_DIR) -lmlx -L/usr/lib -lXext -lX11 -lm 
 
 # コンパイラ

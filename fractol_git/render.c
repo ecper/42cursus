@@ -6,11 +6,12 @@
 /*   By: hauchida <hauchida@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 02:16:05 by hauchida          #+#    #+#             */
-/*   Updated: 2024/11/21 14:27:15 by hauchida         ###   ########.fr       */
+/*   Updated: 2025/01/23 03:41:23 by hauchida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
+
 
 int	get_render_type(t_position_data *position_data, t_data *data)
 {
@@ -28,6 +29,7 @@ int	render(t_data *data)
 	int						py;
 	static t_position_data	position_data[HEIGHT][WIDTH];
 
+	write(1, "a", 1);
 	py = 0;
 	while (py < HEIGHT)
 	{
