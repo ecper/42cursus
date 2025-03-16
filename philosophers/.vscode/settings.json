@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"*.page-template": "vue",
+		"*.layout-template": "vue",
+		"*.vue": "vue",
+		"philo.h": "c",
+		"unistd.h": "c"
+	},
+	"files.autoSave": "afterDelay",
+	"editor.defaultFormatter": "keyhr.42-c-format"
+}

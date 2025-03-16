@@ -6,7 +6,7 @@
 /*   By: hauchida <hauchida@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 19:12:42 by hauchida          #+#    #+#             */
-/*   Updated: 2024/11/20 22:12:01 by hauchida         ###   ########.fr       */
+/*   Updated: 2024/12/09 00:11:27 by hauchida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # define WIDTH 800
 # define HEIGHT 600
-# define MAX_ITER 4000
+# define MAX_ITER 100000
 # define PER_ITER 100
 # define ZOOM 1.1
 # define MOVE 0.1
